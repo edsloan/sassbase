@@ -2,9 +2,9 @@
 
 v1.0
 
-A simple, responsive themed boilerplate to get your projects up and running fast with Sass.
+A simple, responsive themed boilerplate to get your Sass projects up and running fast.
 
-##Getting Started
+##Set-up
 
 -  Go to your project folder: 
    
@@ -21,4 +21,5 @@ A simple, responsive themed boilerplate to get your projects up and running fast
 
 ##Notes
 
--  Author: [@edsloan](https://twitter.com/edsloandev)
+-  Please delete the `safe-to-delete.tmp` files found in the fonts and images directories.
+-  Author: [@edsloan](https://twitter.com/edsloandev).
