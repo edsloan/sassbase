@@ -9,9 +9,9 @@ A simple, responsive themed boilerplate to get your Sass projects up and running
 -  Go to your project folder: 
    
    `cd project/directory`
--  Clone this repo into your project:
+-  Clone this repo into your project (note the '.' at the end):
 
-   `git clone https://github.com/edsloan/sassbase.git`
+   `git clone https://github.com/edsloan/sassbase.git .`
 -  Go to the Sass directory:
 
    `cd css/sass`
