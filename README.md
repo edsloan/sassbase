@@ -15,7 +15,7 @@ A simple, responsive themed boilerplate to get your Sass projects up and running
 -  Go to the Sass directory:
 
    `cd css/sass`
--  Run the command to start watching your Sass file:
+-  Run the command to start watching your main Sass file:
 
    `sass --watch styles.scss:../styles.css --style expanded`
 
