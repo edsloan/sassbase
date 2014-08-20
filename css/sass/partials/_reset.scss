@@ -1,0 +1,21 @@
+//
+//_reset.scss - Reset declarations.
+//
+* {
+	margin: 0;
+	padding: 0;
+}
+*,
+*:after,
+*:before {
+  @include box-sizing(border-box);
+}
+html {
+
+}
+body {
+
+}
+html, body {
+	@include font("font-1");
+}

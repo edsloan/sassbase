@@ -1,0 +1,18 @@
+//
+//_theme.scss - Theme/color declarations.
+//
+
+//fonts
+@each $font-face in 'font-1', 'font-2'  {
+    @font-face {
+          font-family: $font-face; font-style: normal; font-weight: normal;
+          src: url('../fonts/#{$font-face}.eot');
+          src: url('../fonts/#{$font-face}.eot?') format('eot'),
+               url('../fonts/#{$font-face}.woff') format('woff'),
+               url('../fonts/#{$font-face}.ttf') format('truetype');
+    }
+}
+
+//colors
+$main-color: #000;
+$light-color: #ccc;

@@ -1,0 +1,22 @@
+/*! sassbase | MIT | @edsloandev */
+//
+//styles.scss - @include declarations.
+//
+
+@import "partials/variables";
+@import "partials/mixins";
+@import "partials/theme";
+
+@import "partials/reset";
+@import "partials/text";
+
+@import "components/globals";
+
+@import "partials/nav";
+@import "partials/forms";
+@import "partials/buttons";
+@import "partials/lists";
+
+@import "components/project";
+
+@import "partials/response";
