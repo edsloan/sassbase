@@ -1,13 +1,16 @@
 //
 //_breakpoints.scss - Breakpoint styling declarations.
+//Width defintions are found in _theme.scss
 //
 
 //large
-@media (max-width: 1024px) {
+@media #{$large-breakpoint} {
+    
 
 }
 
 //small
-@media (max-width: 768px) {
+@media #{$small-breakpoint} {
+    
 
 }

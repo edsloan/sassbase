@@ -3,6 +3,7 @@
 //
 
 //fonts
+//@ include(helvetica);
 @mixin font($font, $style: normal, $weight: normal) {
     font-family: $font, arial, sans-serif;
     font-style: $style;
@@ -10,6 +11,7 @@
 }
 
 //box-sizing
+//@include box-sizing(border-box);
 @mixin box-sizing($box-model) {
   		-webkit-box-sizing: $box-model;
     	-moz-box-sizing: $box-model; 
@@ -17,6 +19,7 @@
 }
 
 //clearfix
+//@inlude clearfix();
 @mixin clearfix() {
     &:before,
     &:after {
@@ -26,4 +29,24 @@
     &:after {
         clear: both;
     }
+}
+
+//vendor-prefixes
+//@include vendor(border-radius, 2px);
+@mixin vendor($property, $value...){
+        -webkit-#{$property}:$value;
+        -moz-#{$property}:$value;
+        -ms-#{$property}:$value;
+        -o-#{$property}:$value;
+    #{$property}:$value;
+}
+
+//transitions
+//@include transition(color .3s ease);
+@mixin transition($args...) {
+        -webkit-transition: $args;
+        -moz-transition: $args;
+        -ms-transition: $args;
+        -o-transition: $args;
+    transition: $args;
 }
