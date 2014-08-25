@@ -29,7 +29,7 @@ input, textarea, select {
 *,
 *:after,
 *:before {
-  @include box-sizing(border-box);
+	@include box-sizing(border-box);
 }
 html {
 

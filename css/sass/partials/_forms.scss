@@ -5,18 +5,24 @@
 form {
 	
 }
+label {
+
+}
 input {
 
+	&[type="text"] {
+
+	}
+	&[type="checkbox"] {
+
+	}
+	&[type="submit"] {
+
+	}
 }
 textarea {
 
 }
-input[type="text"] {
-
-}
-input[type="checkbox"] {
-	
-}
-input[type="submit"] {
+select {
 	
 }

@@ -3,6 +3,7 @@
 //
 
 //fonts
+//requires the font name to be the same as the file name(s)
 @each $font-face in 'font-1', 'font-2'  {
     @font-face {
       	font-family: $font-face; font-style: normal; font-weight: normal;

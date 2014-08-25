@@ -1,9 +1,9 @@
 //
-//_mixins.scss - Mixins declarations.
+//_mixins.scss - Mixin declarations.
 //
 
 //fonts
-//@ include(helvetica);
+//@include(helvetica);
 @mixin font($font, $style: normal, $weight: normal) {
     font-family: $font, arial, sans-serif;
     font-style: $style;
