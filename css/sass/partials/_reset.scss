@@ -1,18 +1,23 @@
 //
 //_reset.scss - Reset declarations.
 //
-html, body, ul, ol, li, form {
+html, body, ul, ol, li, form, a {
 	margin: 0;
 	padding: 0;
+	background: transparent;
 }
 h1, h2, h3, h4, h5, h6, p { 
 	margin-top: 0; 
 }
 img { 
-	border: 0; 
+	border: 0;
+	max-width: 100%;
 }
 li { 
 	list-style: none; 
+}
+a {
+	vertical-align: baseline;
 }
 table {
 	border-collapse: collapse;
@@ -25,6 +30,7 @@ th, td {
 input, textarea, select {
 	font-size: 110%;
 	line-height: 1.1;
+
 }
 *,
 *:after,
@@ -32,11 +38,16 @@ input, textarea, select {
 	@include box-sizing(border-box);
 }
 html {
-
+	//set in _theme.scss
+	font-family: $main-font-family;
+	color: $main-font-color;
+	@include font-size(12px);
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
 }
 body {
 
 }
 html, body {
-	@include font("font-1");
+	
 }

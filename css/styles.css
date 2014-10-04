@@ -1,21 +1,8 @@
 /*! SassBase | MIT | @edsloandev */
-@font-face {
-  font-family: "font-1";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/font-1.eot");
-  src: url("../fonts/font-1.eot?") format("eot"), url("../fonts/font-1.woff") format("woff"), url("../fonts/font-1.ttf") format("truetype");
-}
-@font-face {
-  font-family: "font-2";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/font-2.eot");
-  src: url("../fonts/font-2.eot?") format("eot"), url("../fonts/font-2.woff") format("woff"), url("../fonts/font-2.ttf") format("truetype");
-}
-html, body, ul, ol, li, form {
+html, body, ul, ol, li, form, a {
   margin: 0;
   padding: 0;
+  background: transparent;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -24,10 +11,15 @@ h1, h2, h3, h4, h5, h6, p {
 
 img {
   border: 0;
+  max-width: 100%;
 }
 
 li {
   list-style: none;
+}
+
+a {
+  vertical-align: baseline;
 }
 
 table {
@@ -53,8 +45,11 @@ input, textarea, select {
   box-sizing: border-box;
 }
 
-html, body {
-  font-family: "font-1", arial, sans-serif;
-  font-style: normal;
-  font-weight: normal;
+html {
+  font-family: verdana, sans-serif;
+  color: #111111;
+  font-size: 12px;
+  font-size: 0.75rem;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
