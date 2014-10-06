@@ -5,13 +5,13 @@
 //rem font size conversion, with px fallback
 //@include font-size(12px);
 @function calculateRem($size) {
-  $remSize: $size / 16px;
-  @return $remSize * 1rem;
+    $remSize: $size / 16px;
+    @return $remSize * 1rem;
 }
 
 @mixin font-size($size) {
-  font-size: $size;
-  font-size: calculateRem($size);
+    font-size: $size;
+    font-size: calculateRem($size);
 }
 
 //fonts
@@ -43,7 +43,7 @@
     }
 }
 
-//vendor-prefixes
+//vendor prefixes
 //@include vendor(border-radius, 2px);
 @mixin vendor($property, $value...){
         -webkit-#{$property}:$value;
@@ -63,7 +63,7 @@
     transition: $args;
 }
 
-//vertial-linear-gradient
+//vertial linear gradients
 //@include vert-linear-gradient(#cccccc, #666666);
 @mixin vert-linear-gradient($top, $bottom){
     background: $top;

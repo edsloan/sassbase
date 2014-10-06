@@ -2,6 +2,11 @@
 //_reset.scss - Reset declarations.
 //
 
+*,
+*:after,
+*:before {
+	@include box-sizing(border-box);
+}
 html, body, ul, ol, li, form, a {
 	margin: 0;
 	padding: 0;
@@ -28,12 +33,6 @@ th, td {
 input, textarea, select {
 	font-size: 110%;
 	line-height: 1.1;
-
-}
-*,
-*:after,
-*:before {
-	@include box-sizing(border-box);
 }
 html {
 	//set in _theme.scss
