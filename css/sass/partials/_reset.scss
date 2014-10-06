@@ -1,6 +1,7 @@
 //
 //_reset.scss - Reset declarations.
 //
+
 html, body, ul, ol, li, form, a {
 	margin: 0;
 	padding: 0;
@@ -15,9 +16,6 @@ img {
 }
 li { 
 	list-style: none; 
-}
-a {
-	vertical-align: baseline;
 }
 table {
 	border-collapse: collapse;

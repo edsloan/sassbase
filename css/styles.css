@@ -1,4 +1,4 @@
-/*! SassBase - v1.0 | MIT | @edsloandev */
+/*! SassBase - v1.1.0 | MIT | @edsloandev */
 html, body, ul, ol, li, form, a {
   margin: 0;
   padding: 0;
@@ -16,10 +16,6 @@ img {
 
 li {
   list-style: none;
-}
-
-a {
-  vertical-align: baseline;
 }
 
 table {

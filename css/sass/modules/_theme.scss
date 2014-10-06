@@ -1,0 +1,40 @@
+//
+//_theme.scss - Theme declarations.
+//this should not output any css.
+//
+
+//pallete
+$main-color: #111;
+$alt-color: #aaa;
+
+$main-bg-color: #ccc;
+
+//fonts
+$main-font-family: verdana, sans-serif;
+$main-font-color: $main-color;
+$main-font-size: 12px;
+
+$alt-font-family: arial, sans-serif;
+$alt-font-color: $alt-color;
+$alt-font-size: 14px;
+
+//layout
+$border-radius: 5px;
+$section-spacing: 2%;
+
+//breakpoints - populated in _breakpoints.scss
+$large-breakpoint: "(max-width: 1024px)";
+$small-breakpoint: "(max-width: 767px)";
+
+//external fonts (commented out until needed)
+//requires the font name to be the same as the file name(s)
+//works with @include font(open-sans-webfont); (found in _mixins.scss)
+// @each $font-face in 'font-1', 'font-2'  {
+//     @font-face {
+//       	font-family: $font-face; font-style: normal; font-weight: normal;
+//       	src: url('../fonts/#{$font-face}.eot');
+//       	src: url('../fonts/#{$font-face}.eot?') format('eot'),
+//            	 url('../fonts/#{$font-face}.woff') format('woff'),
+//            	 url('../fonts/#{$font-face}.ttf') format('truetype');
+//     }
+// }

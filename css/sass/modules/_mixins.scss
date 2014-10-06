@@ -2,8 +2,8 @@
 //_mixins.scss - Mixin declarations.
 //
 
-//rem font size, with px fallback
-//include font-size(12px);
+//rem font size conversion, with px fallback
+//@include font-size(12px);
 @function calculateRem($size) {
   $remSize: $size / 16px;
   @return $remSize * 1rem;
@@ -15,7 +15,7 @@
 }
 
 //fonts
-//@include(helvetica);
+//@include font(helvetica);
 @mixin font($font, $style: normal, $weight: normal) {
     font-family: $font, arial, sans-serif;
     font-style: $style;
@@ -25,8 +25,8 @@
 //box-sizing
 //@include box-sizing(border-box);
 @mixin box-sizing($box-model) {
-  		-webkit-box-sizing: $box-model;
-    	-moz-box-sizing: $box-model; 
+        -webkit-box-sizing: $box-model;
+        -moz-box-sizing: $box-model; 
     box-sizing: $box-model;
 }
 

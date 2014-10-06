@@ -1,11 +1,11 @@
-/*! SassBase - v1.0 | MIT | @edsloandev */
+/*! SassBase - v1.1.0 | MIT | @edsloandev */
 //
 //styles.scss - @import declarations.
 //
 
-@import "partials/variables";
-@import "partials/mixins";
-@import "partials/theme";
+@import "modules/variables";
+@import "modules/mixins";
+@import "modules/theme";
 
 @import "partials/reset";
 @import "partials/typography";
@@ -20,6 +20,6 @@
 
 @import "components/project";
 
-@import "partials/breakpoints";
+@import "components/breakpoints";
 
-@import "partials/junk";
+@import "components/junk";

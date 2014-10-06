@@ -1,6 +1,6 @@
 #SassBase
 
-v1.0
+v1.1.0
 
 A simple, responsive themed boilerplate to get your Sass projects up and running fast.
 
