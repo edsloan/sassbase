@@ -3,7 +3,7 @@
 //
 
 //rem font size, with px fallback
-//include font-size(12px);
+//@include font-size(12px);
 @function calculateRem($size) {
   $remSize: $size / 16px;
   @return $remSize * 1rem;
