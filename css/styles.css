@@ -1,4 +1,4 @@
-/*! SassBase - v1.1.0 | MIT | @edsloandev */
+/*! SassBase - v1.1.1 | MIT | @edsloandev */
 *,
 *:after,
 *:before {
@@ -48,4 +48,22 @@ html {
   font-size: 0.75rem;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+}
+
+.button {
+  display: inline-block;
+  padding: 6px 12px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+.button--dark {
+  color: #111111;
+  background: #cccccc;
+  border-color: #999999;
+}
+.button--light {
+  color: #cccccc;
+  background: #111111;
+  border-color: black;
 }

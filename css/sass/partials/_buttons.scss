@@ -9,11 +9,19 @@ button {
 	}
 }
 .button {
-
-	&--buton-dark {
-		
+	display: inline-block;
+	padding: $button-padding;
+	text-align: center;
+	border-radius: $border-radius;
+	border: 1px solid transparent;
+	&--dark {
+		color: $main-color;
+		background: $alt-color;
+		border-color: darken($alt-color, 20%);
 	}
-	&--button-light {
-		
+	&--light {
+		color: $alt-color;
+		background: $main-color;
+		border-color: darken($main-color, 20%);
 	}
 }

@@ -5,9 +5,9 @@
 
 //pallete
 $main-color: #111;
-$alt-color: #aaa;
+$alt-color: #ccc;
 
-$main-bg-color: #ccc;
+$main-bg-color: #eee;
 
 //fonts
 $main-font-family: verdana, sans-serif;
@@ -20,6 +20,7 @@ $alt-font-size: 14px;
 
 //layout
 $border-radius: 5px;
+$button-padding: 6px 12px;
 $section-spacing: 2%;
 
 //breakpoints - populated in _breakpoints.scss
