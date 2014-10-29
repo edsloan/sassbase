@@ -1,4 +1,4 @@
-/*! SassBase - v1.1.1 | MIT | @edsloandev */
+/*! SassBase - v1.1.2 | MIT | @edsloandev */
 *,
 *:after,
 *:before {
@@ -43,27 +43,53 @@ input, textarea, select {
 
 html {
   font-family: verdana, sans-serif;
-  color: #111111;
+  color: #111;
   font-size: 12px;
   font-size: 0.75rem;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 
-.button {
+.btn {
   display: inline-block;
+  cursor: pointer;
   padding: 6px 12px;
   text-align: center;
   border-radius: 5px;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
 }
-.button--dark {
-  color: #111111;
-  background: #cccccc;
-  border-color: #999999;
+.btn:hover {
+  opacity: 0.8;
 }
-.button--light {
-  color: #cccccc;
-  background: #111111;
+.btn--main {
+  background: #111;
+  color: #ccc;
   border-color: black;
 }
+.btn--main-ghost {
+  background: transparent;
+  color: #ccc;
+  border-color: #ccc;
+}
+.btn--alt {
+  background: #ccc;
+  color: #111;
+  border-color: #a6a6a6;
+}
+.btn--alt-ghost {
+  background: transparent;
+  color: #111;
+  border-color: #111;
+}
+.btn--success {
+  background: #2ECC40;
+  color: #fff;
+  border-color: #208e2c;
+}
+.btn--warn {
+  background: #FF4136;
+  color: #fff;
+  border-color: #e90d00;
+}
+
+/*# sourceMappingURL=styles.css.map */

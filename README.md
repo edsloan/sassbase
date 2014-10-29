@@ -1,6 +1,6 @@
 #SassBase
 
-v1.1.1
+v1.1.2
 
 A simple, responsive themed framework to get your Sass projects up and running fast.
 
@@ -19,6 +19,6 @@ A simple, responsive themed framework to get your Sass projects up and running f
 
 ##Notes
 
--  Please delete the `safe-to-delete.tmp` files found in the fonts and images directories.
+-  Please delete the `safe-to-delete.tmp` files found in the fonts directory.
 -  SassBase uses by default [g.css](https://github.com/edsloan/g.css) as its responsive grid system and [jQuery 1.11.1](http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js).
 -  Author(s): [@edsloan](https://twitter.com/edsloandev).

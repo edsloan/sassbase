@@ -8,20 +8,46 @@ button {
 		
 	}
 }
-.button {
+.btn {
 	display: inline-block;
+	cursor: pointer;
 	padding: $button-padding;
 	text-align: center;
 	border-radius: $border-radius;
-	border: 1px solid transparent;
-	&--dark {
-		color: $main-color;
-		background: $alt-color;
-		border-color: darken($alt-color, 20%);
+	border: #{$btn-border-size} solid transparent;
+	&:hover {
+		opacity: 0.8;
 	}
-	&--light {
-		color: $alt-color;
+	&--main {
 		background: $main-color;
-		border-color: darken($main-color, 20%);
+		color: $alt-color;
+		border-color: darken($main-color, 15%);
+		&-ghost{
+			background: transparent;
+			color: $alt-color;
+			border-color: $alt-color;
+		}
+	}
+	&--alt {
+		background: $alt-color;
+		color: $main-color;
+		border-color: darken($alt-color, 15%);
+		&-ghost {
+			background: transparent;
+			color: $main-color;
+			border-color: $main-color;
+		}
+	}
+	&--success {
+		$success-bg: #2ECC40;
+		background: $success-bg;
+		color: #fff;
+		border-color: darken($success-bg, 15%);
+	}
+	&--warn {
+		$warn-bg: #FF4136;
+		background: $warn-bg;
+		color: #fff;
+		border-color: darken($warn-bg, 15%);
 	}
 }
