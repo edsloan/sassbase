@@ -3,7 +3,7 @@
 //this should not output any css.
 //
 
-//pallete
+//palette
 $main-color: #111;
 $alt-color: #ccc;
 
@@ -20,8 +20,11 @@ $alt-font-size: 14px;
 
 //layout
 $border-radius: 5px;
-$button-padding: 6px 12px;
 $section-spacing: 2%;
+
+//buttons
+$btn-top-padding: 6px;
+$btn-side-padding: 12px;
 $btn-border-size: 2px;
 
 //breakpoints - populated in _breakpoints.scss

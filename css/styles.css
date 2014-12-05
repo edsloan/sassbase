@@ -1,4 +1,4 @@
-/*! SassBase - v1.1.2 | MIT | @edsloandev */
+/*! SassBase - v1.1.3 | MIT | @edsloandev */
 *,
 *:after,
 *:before {
@@ -68,8 +68,8 @@ html {
 }
 .btn--main-ghost {
   background: transparent;
-  color: #ccc;
-  border-color: #ccc;
+  color: #111;
+  border-color: #111;
 }
 .btn--alt {
   background: #ccc;
@@ -78,8 +78,8 @@ html {
 }
 .btn--alt-ghost {
   background: transparent;
-  color: #111;
-  border-color: #111;
+  color: #ccc;
+  border-color: #ccc;
 }
 .btn--success {
   background: #2ECC40;
@@ -90,6 +90,12 @@ html {
   background: #FF4136;
   color: #fff;
   border-color: #e90d00;
+}
+.btn--sm {
+  padding: 3px 6px;
+}
+.btn--lg {
+  padding: 12px 24px;
 }
 
 /*# sourceMappingURL=styles.css.map */

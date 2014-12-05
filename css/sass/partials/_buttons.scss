@@ -8,10 +8,11 @@ button {
 		
 	}
 }
+//<button class="btn btn--main btn--lg"></button>
 .btn {
 	display: inline-block;
 	cursor: pointer;
-	padding: $button-padding;
+	padding: $btn-top-padding $btn-side-padding;
 	text-align: center;
 	border-radius: $border-radius;
 	border: #{$btn-border-size} solid transparent;
@@ -24,8 +25,8 @@ button {
 		border-color: darken($main-color, 15%);
 		&-ghost{
 			background: transparent;
-			color: $alt-color;
-			border-color: $alt-color;
+			color: $main-color;
+			border-color: $main-color;
 		}
 	}
 	&--alt {
@@ -34,8 +35,8 @@ button {
 		border-color: darken($alt-color, 15%);
 		&-ghost {
 			background: transparent;
-			color: $main-color;
-			border-color: $main-color;
+			color: $alt-color;
+			border-color: $alt-color;
 		}
 	}
 	&--success {
@@ -49,5 +50,11 @@ button {
 		background: $warn-bg;
 		color: #fff;
 		border-color: darken($warn-bg, 15%);
+	}
+	&--sm {
+		padding: $btn-top-padding / 2 $btn-side-padding / 2;
+	}
+	&--lg {
+		padding: $btn-top-padding * 2 $btn-side-padding * 2;
 	}
 }
