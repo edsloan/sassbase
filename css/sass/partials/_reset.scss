@@ -38,9 +38,8 @@ html {
 	//set in _theme.scss
 	font-family: $main-font-family;
 	color: $main-font-color;
-	@include font-size(12px);
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
+	@include font-size($main-font-size);
+	@include vendor(text-size-adjust, 100%);
 }
 body {
 

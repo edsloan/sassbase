@@ -1,4 +1,10 @@
 /*! SassBase - v1.1.4 | MIT | @edsloandev */
+@font-face {
+  font-family: "open-sans";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/open-sans.woff") format("woff");
+}
 *,
 *:after,
 *:before {
@@ -42,12 +48,15 @@ input, textarea, select {
 }
 
 html {
-  font-family: verdana, sans-serif;
+  font-family: "open-sans", arial, sans-serif;
   color: #111;
   font-size: 12px;
   font-size: 0.75rem;
-  -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -o-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 .btn {
