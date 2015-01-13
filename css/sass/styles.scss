@@ -1,25 +1,27 @@
-/*! SassBase - v1.1.5 | MIT | @edsloandev */
+/*! SassBase - v1.2.0 | MIT | @edsloandev */
 //
 //styles.scss - @import declarations.
 //
 
-@import "modules/variables";
-@import "modules/mixins";
-@import "modules/theme";
+@import 
+	"utils/variables",
+	"utils/functions",
+	"utils/mixins";
 
-@import "partials/reset";
-@import "partials/typography";
+@import 
+	"base/theme",
+	"base/reset",
+	"base/typography";
 
-@import "components/shared";
+@import 
+	"components/nav",
+	"components/lists",
+	"components/forms",
+	"components/buttons",
+	"components/tables";
 
-@import "partials/nav";
-@import "partials/lists";
-@import "partials/forms";
-@import "partials/buttons";
-@import "partials/tables";
-
-@import "components/project";
-
-@import "components/breakpoints";
-
-@import "components/junk";
+@import 
+	"globals/shared",
+	"globals/project",
+	"globals/breakpoints",
+	"globals/junk";

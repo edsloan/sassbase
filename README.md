@@ -1,6 +1,6 @@
 #SassBase
 
-v1.1.5
+v1.2.0
 
 A simple, responsive themed framework to get your Sass projects up and running fast.
 
