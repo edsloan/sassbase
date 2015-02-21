@@ -14,7 +14,7 @@ A simple, responsive themed framework to get your Sass projects up and running f
    `git clone https://github.com/edsloan/sassbase.git .`
 -  Run this command to start watching the main Sass file:
 
-   `sass --watch css/sass/styles.scss:css/styles.css --style expanded`
+   `watch.sh`
 -  Now you are good to go create awesomeness!
 
 ##Notes
