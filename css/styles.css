@@ -1,4 +1,4 @@
-/*! SassBase - v1.2.1 | MIT | @edsloandev */
+/*! SassBase - v1.2.2 | MIT | @edsloandev */
 @font-face {
   font-family: "open-sans";
   font-style: normal;
@@ -49,7 +49,7 @@ input, textarea, select {
 
 html {
   font-family: "open-sans", arial, sans-serif;
-  color: #111;
+  color: #111111;
   font-size: 12px;
   font-size: 0.75rem;
   -webkit-text-size-adjust: 100%;
@@ -71,32 +71,32 @@ html {
   opacity: 0.8;
 }
 .btn--main {
-  background: #111;
-  color: #ccc;
+  background: #111111;
+  color: #cccccc;
   border-color: black;
 }
 .btn--main-ghost {
   background: transparent;
-  color: #111;
-  border-color: #111;
+  color: #111111;
+  border-color: #111111;
 }
 .btn--alt {
-  background: #ccc;
-  color: #111;
+  background: #cccccc;
+  color: #111111;
   border-color: #a6a6a6;
 }
 .btn--alt-ghost {
   background: transparent;
-  color: #ccc;
-  border-color: #ccc;
+  color: #cccccc;
+  border-color: #cccccc;
 }
 .btn--success {
-  background: #2ECC40;
+  background: #2ecc40;
   color: #fff;
   border-color: #208e2c;
 }
 .btn--warn {
-  background: #FF4136;
+  background: #ff4136;
   color: #fff;
   border-color: #e90d00;
 }
@@ -106,5 +106,3 @@ html {
 .btn--lg {
   padding: 12px 24px;
 }
-
-/*# sourceMappingURL=styles.css.map */
