@@ -1,6 +1,6 @@
 #SassBase
 
-v1.2.2
+v1.2.3
 
 A simple, responsive themed framework to get your Sass projects up and running fast.
 
@@ -14,7 +14,7 @@ A simple, responsive themed framework to get your Sass projects up and running f
    `git clone https://github.com/edsloan/sassbase.git .`
 -  Run this command to start watching the main Sass file:
 
-   `watch.sh`
+   `./watch.sh`
 -  Now you are good to go create awesomeness!
 
 ##Notes
