@@ -1,6 +1,8 @@
 #SassBase
 
-v1.3.1
+[![Build Status](https://travis-ci.org/edsloan/sassbase.svg?branch=master)](https://travis-ci.org/edsloan/sassbase)
+
+v1.3.2
 
 A simple, responsive themed framework to get your Sass projects up and running fast.
 
