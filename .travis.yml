@@ -1,0 +1,6 @@
+script:
+ - "tests/compile.rb"
+
+language: sass
+before_install:
+ - gem install sass
