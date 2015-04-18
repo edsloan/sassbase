@@ -1,5 +1,5 @@
 before_script:
- - chmod +x sassbase
+ - chmod +x tests
 
 script:
  - "tests/compile.rb"
