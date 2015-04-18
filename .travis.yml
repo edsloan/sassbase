@@ -1,5 +1,5 @@
 before_script:
- - chmod +x tests
+ - chmod +x tests/compile.rb
 
 script:
  - "tests/compile.rb"
